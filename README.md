@@ -5,11 +5,11 @@
 遇到的第一个问题：仓库里面找不到aiosignal包的1.3.1版本，于是从PIPY官网进行下载。首先下载到本地，然后再远程传输到服务器。
 Python包的地址：
 ~~~
-~/.conda/envs/UniXGen/lib/python3.6/site-packages
+cd ~/.conda/envs/UniXGen/lib/python3.6/site-packages
 ~~~
 工程地址：
 ~~~
-~/temp/UniXGen/code/UniXGen
+cd ~/temp/UniXGen/code/UniXGen
 ~~~
 解压`.tar.gz`文件：
 ~~~
