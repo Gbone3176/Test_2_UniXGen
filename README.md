@@ -3,10 +3,22 @@
 
 ## week1
 遇到的第一个问题：仓库里面找不到aiosignal包的1.3.1版本，于是从PIPY官网进行下载。首先下载到本地，然后再远程传输到服务器。
-Python包的地址：`~/.conda/envs/UniXGen/lib/python3.6/site-packages`
-工程地址：`~/temp/UniXGen/code/UniXGen`
-解压`.tar.gz`文件：`tar -xzvf cachetools-5.3.2.tar.gz`
-进入到这个包文件夹里面，使用：`python setup.py install`
+Python包的地址：
+~~~
+~/.conda/envs/UniXGen/lib/python3.6/site-packages
+~~~
+工程地址：
+~~~
+~/temp/UniXGen/code/UniXGen
+~~~
+解压`.tar.gz`文件：
+~~~
+tar -xzvf cachetools-5.3.2.tar.gz
+~~~
+进入到这个包文件夹里面，使用:
+~~~
+python setup.py install
+~~~
 
 参考网站：[如何使用.tar.gz文件](https://blog.csdn.net/abcdrachel/article/details/100665420)。
 
