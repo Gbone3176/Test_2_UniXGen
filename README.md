@@ -13,7 +13,7 @@ Python包的地址：
 ~~~
 解压`.tar.gz`文件：
 ~~~
-tar -xzvf cachetools-5.3.2.tar.gz
+tar -xzvf test.tar.gz
 ~~~
 进入到这个包文件夹里面，使用:
 ~~~
