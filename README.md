@@ -22,3 +22,4 @@ python setup.py install
 
 参考网站：[如何使用.tar.gz文件](https://blog.csdn.net/abcdrachel/article/details/100665420)。
 
+好多包装不上，手动装不如让我驱使
