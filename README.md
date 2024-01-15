@@ -26,4 +26,10 @@ python setup.py install
 
 ## week2
 
+第一次运行报错，
+~~~
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='heibox.uni-heidelberg.de', port=443): Max retries exceeded with url: /f/607503859c864bc1b30b/?dl=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f94a5d76
+~~~
+解决方法是手动访问该地址进行下载，在远程上传到对应文件夹里面。
+第二次运行报错：![不存在对应的文件夹](https://github.com/Gbone414/Test_2_UniXGen/assets/143300567/9b991991-ec2b-4090-ac12-e310c91a4f08)，是数据集中的report部分（数据集有report部分和JPG部分），名字在csv文件中有，直接根据`/metadate`中的.csv生成这些.txt文件，几十万个。生成之后再运行。运行过程中发现img的路径应该设置错了，可能读取完report之后读不到图片数据集，之后看看报错
 
